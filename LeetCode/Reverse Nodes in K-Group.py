@@ -9,17 +9,23 @@ class Solution:
             return None
         if k == 1:
             return head
-        current = head
-        count = 0
-        next=None
-        prev=None
-        while current and count < k:
-            next = current.next
-            current.next = prev
-            prev = current
-            current = next
-            count += 1
-        if next:
-            head.next=self.reverseKGroup(next,k)
-        return prev       
-            
+        dummy = ListNode(next = head)
+        prev  = dummy
+        temp = curr = prev2 = head
+
+        while temp and temp.next:
+            for i in range(k):
+                if temp :
+                    temp = temp.next
+                else:
+                    return dummy.next
+        
+            curr.next,curr = temp,curr.next
+            for i in range(k-1):
+                curr.next,prev2,curr = prev2,curr,curr.next
+            prev.next = prev2
+            prev = head
+            prev2 = head = temp
+        
+        return dummy.next
+        
