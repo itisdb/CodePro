@@ -23,6 +23,6 @@ def countArrangement(n):
         
         
         
-        if __name__ == '__main__':
-            n=int(input())
-            print(countArrangement(n))
+if __name__ == '__main__':
+     n=int(input())
+     print(countArrangement(n))
