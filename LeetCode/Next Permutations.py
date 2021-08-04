@@ -1,17 +1,18 @@
-from itertools import permutations
 class Solution:
-
     def nextPermutation(self, nums: List[int]) -> None:
         """
         Do not return anything, modify nums in-place instead.
         """
-        if nums is None or len(nums) == 0:
-            return
-        s=int(''.join([str(x) for x in nums]))
-        perm=permutations([str(x) for x in nums])
-        for i in list(perm):
-            if int(''.join(list(i))) > s:
-                nums= list(i)
-                return
-        nums.reverse()
-
+        if not nums or len(nums) == 1: return
+        l, j, large, r = len(nums)-2, -1, -1, -1
+        while l >= 0:
+            if nums[l] < nums[l+1]:
+                j, large = l+1, nums[l+1]; break
+            l -= 1
+        if l == -1: nums.sort(); return
+        while j < len(nums):
+            if nums[j] > nums[l] and nums[j] <= large:
+                r, large= j, nums[j]
+            j +=1
+        nums[l], nums[r] = nums[r], nums[l]
+        nums[l+1:] = sorted(nums[l+1:])
