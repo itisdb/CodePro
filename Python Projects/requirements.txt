@@ -1,1 +1,2 @@
 streamlit #for the widgets and the various app hosting support
+yfinance # for the finance app
