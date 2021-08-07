@@ -1,27 +1,13 @@
 class Solution:
-    def beautifulArray(self, n: int):
-        if n==1:
-            return [1]
-        if n==2:
-            return [1,2]
-        res = [i for i in range(1,n)]
-        j=2
-        while j<n:
-            i=0
-            k=i+1
-            while i<j-1:
-                if res[k]*2==res[i]+res[j]:
-                    if abs(i-k)>abs(j-k):
-                        res[k],res[j]=res[j],res[k]
-                    else:
-                        res[k],res[i]=res[i],res[k]
-                if k==j-1:
-                    i+=1
-                    k=i+1    
-                else:
-                    k+=1
-            j+=1       
-        return res
-if __name__ == '__main__':
-    solution = Solution()
-    print(solution.beautifulArray(4))
+    def beautifulArray(self, N):
+        """
+        :type N: int
+        :rtype: List[int]
+        """
+        if N==1: return [1]
+        
+        l=self.beautifulArray(N//2)
+        r=self.beautifulArray(N-N//2)
+        return [i*2 for i in l]+[i*2-1 for i in r]
+        
+ 
