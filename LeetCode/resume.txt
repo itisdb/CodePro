@@ -1,0 +1,107 @@
+Dhritesh
+Bhagat
+Bachelor of Technology (CSE) | IEM
+Kolkata, India-700091
+Tel: +91-700 457 4272
+ dhriteshbhagat@gmail.com
+ Github:/itisdb
+ Linkedin:/dhriteshbhagat
+Twitter:/it_is_Bhagat
+Artstation:/iartdb
+EDUCATION
+IEM Kolkata
+Bachelors of Technology
+Computer Science & Engineering
+Expected Grad. July 2021
+CGPA: 9.69 / 10.00
+DAV Public School, Bistupur
+High School | XII
+AISSCE | PCMC
+2016-2018 | Jamshedpur, India
+Percentage: 93.6%
+Kerala Public School, Kadma
+ICSE | X | Science
+2006-2016 | Jamshedpur, India
+Percentage: 98.0%
+SKILLS & ACTIVITIES
+Technical Skills:
+Data Structures (DSA) · Algorithms · Database Management
+System (DBMS) · Operating System (OS) · Python · C++ · Java ·
+Software Engineering · Machine Learning · Deep Learning ·
+MySQL · Git · Keras · PyTorch · TensorFlow · AWS · HTML · CSS ·
+ReactJS · VueJS.
+Soft Skills:
+Public Speaker · Innovator · Collaborative · Leadership ·
+Self-Driven.
+Softwares & Platforms Known:
+Softwares and Platforms known: Blender · ZBrush · Unity ·
+Firebase · GCP · Photoshop (PS) · Illustrator (AI) · After Effects (AE)
+· Canva
+Languages Spoken:
+English, Hindi, Bengali
+Activities:
+• Comm. Volunteer: Google Developers Club
+• Working Comm.: Developers Student Clubs IEM
+• CP/Designing Lead: Code Chef IEMK Chapter
+• Volunteer: Pankh Foundation
+• Creative/Technical Head: IEMMUN, IEMCO, Aurora, IEMCO
+• College Council Member
+PROJECTS
+BCI Depression Analyser
+A web app that visualize depression level of users using DL on
+conversation with an automated Bot using Brain Computer
+Interfaces.
+Tech. Used: OpenBCI, Python, Keras, Bert
+SmartBot Monica
+Developed a bot providing as a one point solution for all
+customer service solutions for low scale companies.
+Tech. Used: IBM Watson, LSTM, Python, Android Studio
+Safe Drive
+Computer Vision based Safe Drive Companion for autodriving
+cars to prevent crashes.
+Tech. Used: Python, PyTorch, OpenCV
+WORK EXPERIENCE
+IEM IEDC Nov 2019 – present
+Senior Researcher Kolkata, IN
+• Worked as a member of the AI/ML team on various projects.
+• Designed and developed DL model being used in self-flight for drones.
+• Deployed and tested Image Processing for mapping and tracking motion of human bodies
+using OpenCV and PyTorch.
+• Developed DL based model for Safe Driving by maintaining drivers’ attention, using Keras
+and Computer Vision.
+• Designed and developed an LSTM based SmartBot providing as a one-point solution for
+customer service using Bert.
+• Technologies Used: Java, Python, Keras, CNN, LSTM, Bert, Neural Network, Deep Learning,
+Git, TensorFlow, TensorFlow Lite.
+IEMA | Ericsson Mar 2021 - present
+ML & AR/VR Developer Kolkata, IN
+• Developed DL models suitable for lightweight compact drones with high-end accuracy.
+• Developed remote tracking system in Drone Swarms using computer vision.
+• Developed AI application compatible with wide ranges of devices using PyTorch based on
+the concept of Pedestrian Dead Reckoning (PDR).
+• Designed 3D models for lightweight VR worlds being hosted online on web apps.
+• Designed and developed 3D AI Bot using DL concepts for real life live virtual talk
+experience with 3D Bot using LSTM, STT, TTS and accompanying technologies.
+• Developed web platform for Live Stream and Custom Object Recognition from Drone
+Camera using live streaming protocols (RTSP, RTMP, HLS)
+• Analysed Indoor-Location based positioning System of Drones using Stereo Vision and
+WIFI mapped location.
+• Worked on research related to Melody Generation using DMA LSTM RBRNN
+• Technologies Used: Python, Blender, Unity, CNN, DMA-LSTM-RBRNN, Keras, Torch, React,
+Flask
+Techax Labs Aug 2020 - Jun 2021
+ML & AR Developer Kolkata, IN
+• Alphabet Jingles & Treasure Trove: Developed an AR application on a Marker based system
+for children to learn in a more interactive environment. Hyper-Casual game built in Unity
+that makes use of Markerless AR technology .
+• AR Village: A complete open-world AR/VR project that helps students learn new things
+from education to skills. Developed the AI for the Scoring System, the AI Bot, and the
+designed the Game Pipeline.
+• Technologies Used: Blender, Unity, Python, C#, iClone7, CC3
+APPLEX.IN Mar 2020 - Oct 2020
+ML & AR Developer Kolkata, IN
+• Snaplingo: Worked on the OCR based application development. Developed modern UI
+designs and maintained UX for more productivity.
+• UTSAV: Worked on the virtual festival application providing a full social life experience
+using Live Chat feature.
+• Technologies Used: Firebase, AWS, Android Studio, Java
