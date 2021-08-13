@@ -3,6 +3,11 @@ Just Productive
 
 * [CodePro](https://itisdb.github.io)
 
+To use the built-in Github Code Editor use the:
+```
+. key while you are in the repository
+```
+
 The way to setup the project.
 
 ```
