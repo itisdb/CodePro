@@ -12,6 +12,9 @@ class Solution:
         prev_pos = 0
         for c in word:
             pos = char_map[ord(c) - ord('a')]
-            t += (abs(pos  - prev_pos)+1) if abs(pos  - prev_pos)<abs(pos-prev_pos-26) else (abs(pos-prev_pos-26)+1)
+            if abs(pos  - prev_pos)<abs(pos-prev_pos-26):
+                t += (abs(pos  - prev_pos)+1)  
+            else:
+                t += (abs(pos-prev_pos-26)+1)
             prev_pos = pos
         return t
