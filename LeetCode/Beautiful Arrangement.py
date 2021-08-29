@@ -1,28 +1,12 @@
-from itertools import permutations
-def countArrangement(n):
-    list = []
-    flag=False
-    count=0
-    for i in range(1, n):
-        list.append(i)
-    perm=permutations(str(list))
-    for i in perm:
-        j=0
-        while(j<len(perm[i])):
-            if(int(perm[i][j])%j)==0 or (j%int(perm[i][j]))==0:
-                continue
-            else:
-                flag=True
-                break
-            j=j+1
-        if flag==False:
-            count=count+1
-        else:
-            flag=False
-    return count
-        
-        
-        
-if __name__ == '__main__':
-     n=int(input())
-     print(countArrangement(n))
+class Solution:
+    def countArrangement(self, n: int) -> int:
+        arr=[i+1 for i in range(n)]
+        self.ans=0
+        def DFS(arr,ind):
+            if not arr:
+                self.ans+=1
+            for i in range(len(arr)):
+                if arr[i]%ind==0 or ind%arr[i]==0:
+                    DFS(arr[:i]+arr[i+1:],ind+1)
+        DFS(arr,1)
+        return self.ans
