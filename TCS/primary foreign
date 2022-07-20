@@ -1,0 +1,6 @@
+create table employee(
+	eid varchar(10) not null,
+	name varchar(20) not null,
+	PRIMARY KEY(eid),
+	FOREIGN KE(name) REFERENCES parent(prim)
+	)
