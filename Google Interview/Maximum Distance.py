@@ -7,15 +7,16 @@ def maxDiff(a, n) -> int:
     #             max_diff = max(max_diff,j-i)
     # return max_diff
 
+    # trying for the O(n) approach
     max_diff = 0
-    start = 0
-    end = 0
-    for i in range(n):
-        if a[start]>a[i]:
-            end=i
-            max_diff = max(max_diff, end-start) 
-            start = i
-    return max_diff
+    i=0
+    j=0
+    while i<n and j<n:
+        if a[i]<=a[j]:
+            j+=1
+        elif a[j]<a[i]:
+            i+=1
+            j=i+1
 
 
 
